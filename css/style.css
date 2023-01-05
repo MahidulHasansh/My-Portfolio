@@ -226,3 +226,83 @@ main {
     line-height: 28px;
     color: #757575;
 }
+
+/* my resume */
+
+.my-resume {
+    margin-bottom: 113px;
+}
+
+.resume {
+    display: flex;
+}
+
+.resume-title {
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.resume-title h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #181818;
+}
+
+.education {
+    margin-right: 24px;
+}
+
+.education .header,
+.experience .header {
+    margin-bottom: 30px;
+}
+
+.education .header h2,
+.experience .header h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+
+.edu-card {
+    border-bottom: 1px solid #dddcdc;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.edu-card:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.edu-card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.edu-card h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #8a8a8a;
+    margin-bottom: 15px;
+
+}
+
+.edu-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #b8b8b8;
+    padding-right: 55px;
+}
+
+.download-cv {
+    margin: 0px auto;
+    margin-top: 50px;
+    display: block;
+}
