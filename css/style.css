@@ -142,10 +142,10 @@ main {
     margin-bottom: 30px;
 }
 
-.about-text p{
+.about-text p {
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;    
+    line-height: 30px;
     color: #757575;
 }
 
@@ -157,13 +157,72 @@ main {
     font-style: normal;
 }
 
-.about-address p{
+.about-address p {
     font-weight: normal;
     color: #757575;
     margin-bottom: 8px;
 }
 
-.about-address h4{
+.about-address h4 {
     font-weight: 600;
     color: #181818;
+}
+
+/* what i do */
+.whati-do {
+    margin-bottom: 130px;
+}
+
+.whati-do>.header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.whati-do>.header h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.whati-do>.header p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin: 0px 110px;
+}
+
+.whati-do>.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whati-do>.cards .card {
+    padding: 30px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.whati-do>.cards .card img {
+    margin-bottom: 30px;
+}
+
+.whati-do>.cards .card h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.whati-do>.cards .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
